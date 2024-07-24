@@ -1,0 +1,27 @@
+{
+    "name": "azis/password-hash",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Azis\\PasswordHash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nuazsa",
+            "email": "nurazissaputra@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+
+    "scripts": {
+        "test": "pest"
+    }
+}
